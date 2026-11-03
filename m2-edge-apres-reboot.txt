@@ -1,0 +1,14 @@
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp0s3           UP             10.0.2.15/24 fd17:625c:f037:2:a00:27ff:fe13:c0c5/64 fe80::a00:27ff:fe13:c0c5/64 
+enp0s8           UP             192.168.56.11/24 fe80::a00:27ff:fe4f:d367/64 
+enp0s9           UP             10.42.0.11/24 
+enp0s9.42@enp0s9 UP             10.42.42.11/24 
+5: enp0s9.42@enp0s9: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default qlen 1000
+    link/ether 08:00:27:19:a6:55 brd ff:ff:ff:ff:ff:ff promiscuity 0 allmulti 0 minmtu 0 maxmtu 65535 
+    vlan protocol 802.1Q id 42 <REORDER_HDR> addrgenmode none numtxqueues 1 numrxqueues 1 gso_max_size 65536 gso_max_segs 65535 tso_max_size 65536 tso_max_segs 65535 gro_max_size 65536 gso_ipv4_max_size 65536 gro_ipv4_max_size 65536 
+NAME    UUID                                  TYPE      DEVICE    
+enp0s3  9d3f53a4-4c00-4a76-a5ce-9bac42e54887  ethernet  enp0s3    
+enp0s8  e39264c2-92fb-4d8f-8f80-c3a956749c25  ethernet  enp0s8    
+metier  d4fcfa25-854b-4b48-880a-7f9bc098b995  ethernet  enp0s9    
+vlan42  d2e041ae-ed1f-4682-a691-bb961751499b  vlan      enp0s9.42 
+lo      8e1e1b4d-bd7b-4bf4-bf3b-abcaba0fe068  loopback  lo        
